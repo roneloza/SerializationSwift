@@ -1,0 +1,11 @@
+framework module SerializationSwift {
+  umbrella header "SerializationSwift.h"
+
+  export *
+  module * { export * }
+}
+
+module SerializationSwift.Swift {
+    header "SerializationSwift-Swift.h"
+    requires objc
+}

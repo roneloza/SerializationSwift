@@ -1,0 +1,6 @@
+framework module SerializationSwift {
+  umbrella header "SerializationSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

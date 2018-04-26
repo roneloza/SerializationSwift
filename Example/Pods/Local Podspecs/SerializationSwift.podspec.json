@@ -1,0 +1,27 @@
+{
+  "name": "SerializationSwift",
+  "version": "0.1.0",
+  "summary": "The serialization library uses the Codable native mechanism used to decode and encode bytes.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rone.loza@gmail.com/SerializationSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rone.loza@gmail.com": "rone.loza@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/roneloza/SerializationSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.1"
+  },
+  "vendored_frameworks": [
+    "SerializationSwift/Frameworks/SerializationSwift-Release-iphoneuniversal/SerializationSwift.framework"
+  ]
+}
